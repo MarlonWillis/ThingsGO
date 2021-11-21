@@ -1,0 +1,274 @@
+@font-face {
+   font-family: ThingsGOlight;
+   src: url(fonts/sofiapro-light.otf);
+}
+
+@font-face {
+   font-family: ThingsGOregular;
+   src: url(fonts/sofia-pro-regular.otf);
+}
+
+* {
+   font-family: ThingsGOlight;
+}
+.stop-scrolling {
+   height: 100%;
+   overflow: hidden;
+       }
+.char-2{
+  font-size: 40px;
+  height: 40px;
+  animation: an 3s ease-out 1 both;
+  font-family: 'ThingsGOlight', sans-serif;
+  display: inline-block;
+}
+    @keyframes an{
+      from{
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+}
+      to{
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+.char-1{
+  font-size: 40px;
+  height: 40px;
+  animation: an 2s ease-out 1 both;
+  font-family: 'ThingsGOlight', sans-serif;
+  display: inline-block;
+}
+    @keyframes an{
+      from{
+    opacity: 0;
+    transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+}
+      to{
+    opacity: 1;
+    transform: perspective(500px) translate3d(0, 0, 0);
+  }
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  background: rgb(63,141,204);
+  background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%);
+  overflow: hidden;
+}
+p {
+   text-align: center;
+ }
+.bgimg {
+  height: 100%;
+  position: relative;
+  color: #00000;
+  font-family: 'ThingsGOlight', sans-serif;
+  font-size: 30px;
+}
+.sub-title-1{
+  position: relative;
+  font-family: 'ThingsGOlight', sans-serif;
+  top: -20px;
+  font-size: 30px!important;
+
+}
+
+.sub-title-2 {
+  position: relative;
+  font-family: 'ThingsGOregular', sans-serif;
+  top:-100px;
+  font-size: 40px!important;
+  color: #ffffff;
+  font-weight: 100;
+}
+.sub-title-3 {
+  position: relative;
+  font-family: 'ThingsGOregular', sans-serif!important;
+  top: 50px;
+  font-size: 40px!important;
+  color: #ffffff;
+  font-weight: 100;
+}
+.logoposition {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.logoxrp {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.middle {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 50%;
+  height: 5px;
+  background-color: #fec235;
+  border-radius: 250px;
+  border: none;
+}
+.img-logo-soon {
+  max-width: 800px;
+  margin-top: -20px;
+}
+
+/*Social*/
+.header-social{
+  top:15px;
+}
+
+.header-social ul{
+	list-style: none;
+  width: fit-content;
+  margin: auto;
+}
+
+.header-social ul li{
+	padding-right: 30px;
+	padding-left: 30px;
+	margin-bottom: 10px;
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+.header-social ul li i{
+	border-radius: 50%;
+	width: 35px;
+  height: 35px;
+  line-height: 5px;
+  text-align: center;
+}
+
+.header-social ul li::after{
+	display: inline-block;
+	font-size: 0em;
+	transition: font-size .7s;
+  position: relative;
+  right: -10px;
+  font-family: ThingsGOlight , sans-serif;
+  font-weight: 100;
+}
+
+.header-social ul li.telegram::after{
+  content: '@ThinsgGO';
+}
+
+.header-social ul li.discord::after{
+  content: '@ThinsgGO';
+}
+
+.header-social ul li.twitter::after{
+  content: '@thingsgoonline';
+
+}
+.header-social ul li.id::after{
+  content: '/thingsgoonline';
+
+}
+
+.header-social a{
+	color: #ffffff;
+	transition: opacity .3s;
+  text-decoration: none;
+}
+
+.header-social a:hover{
+	opacity: 0.7;
+}
+
+.header-social li:hover::after{
+	font-size: 0.8em;
+}
+
+.fa-telegram{
+  position: relative;
+  top:15px;
+}
+
+.fa-twitter{
+  position: relative;
+  top:15px;
+}
+
+.fa-discord{
+  position: relative;
+  top:15px;
+}
+
+.fa-instagram{
+  position: relative;
+  top:15px;
+}
+
+.fa-id{
+  position: relative;
+  top:15px;
+}
+.fade{
+  display: inline-block;
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+.fade-2{
+  display: inline-block;
+  animation: fadeIn linear 4s;
+  -webkit-animation: fadeIn linear 4s;
+  -moz-animation: fadeIn linear 4s;
+  -o-animation: fadeIn linear 4s;
+  -ms-animation: fadeIn linear 4s;
+}
+.fade-3{
+  display: inline-block;
+  animation: fadeIn linear 6s;
+  -webkit-animation: fadeIn linear 6s;
+  -moz-animation: fadeIn linear 6s;
+  -o-animation: fadeIn linear 6s;
+  -ms-animation: fadeIn linear 6s;
+}
+.fade-4{
+  display: inline-block;
+  animation: fadeIn linear 10s;
+  -webkit-animation: fadeIn linear 10s;
+  -moz-animation: fadeIn linear 10s;
+  -o-animation: fadeIn linear 10s;
+  -ms-animation: fadeIn linear 10s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
