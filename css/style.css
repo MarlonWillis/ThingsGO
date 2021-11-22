@@ -20,11 +20,19 @@
   }
 .bgimg  {
   }
-
+.char-1 {
+  font-size:20px!important;
+}
+.char-2 {
+  font-size:20px!important;
+}
 .logoxrp {
   top:40%!important;
 }
+.logo-xrp {
+  max-width: 50px!important;
 
+}
 .middle{
   top:40%important;
 }
@@ -34,12 +42,17 @@
 .sub-title-2{
     font-size: 20px!important;
     top:-30px!important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 .img-logo-soon {
   max-width: 300px!important;
 }
 .sub-title-1{
   font-size: 20px!important;
+}
+.header-social ul {
+  margin-left: -40px!important;
 }
 }
 
