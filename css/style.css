@@ -110,11 +110,23 @@
     transform: perspective(500px) translate3d(0, 0, 0);
   }
 }
+.logo-things-animation {
+  animation: fadeInUp 1s ease-out 1 both ;
+}
 .logo-animation {
-  animation: fadeInUp 2s ease-out 1 both ;
+  animation: fadeInUp 2.5s ease-out 1 both ;
+  left: 0;
+  bottom: 0;
+}
+.text-animation {
+  animation: fadeInUp 4s ease-out 1 both ;
   left: 0;
   position: relative;
   bottom: 0;
+}
+.textsub-animation {
+  animation: fadeInUp 2s ease-out 1 both ;
+
 }
 @-webkit-keyframes fadeInUp {
 	0% {
