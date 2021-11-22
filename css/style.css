@@ -339,7 +339,7 @@ hr {
 }
 
 .header-social ul li.telegram::after{
-  content: 'ThinsgGoOnline';
+  content: 'ThingsGoOnline';
 }
 
 .header-social ul li.discord::after{
