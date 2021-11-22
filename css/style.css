@@ -31,6 +31,18 @@
   max-width: 400px!important;
 }
 }
+@media (max-width: 600px) {
+  .bgimg  {
+    min-width: 600px;
+  }
+
+.sub-title-2{
+    font-size: 20px!important;
+  }
+.img-logo-soon {
+  max-width: 400px!important;
+}
+}
 .char-2{
   font-size: 40px;
   height: 40px;
@@ -71,7 +83,7 @@ body, html {
   background: rgb(63,141,204);
   background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%);
   z-index: -99;
-  max-width: 600px;
+  background-repeat: no-repeat;
 }
 p {
    text-align: center;
