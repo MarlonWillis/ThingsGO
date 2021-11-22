@@ -12,11 +12,42 @@
    font-family: ThingsGOlight;
 }
 
+@media (max-width: 600px) {
+  body {
+    background-color: #65112!important;
+    background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(63,141,204,1) 100%)!important;
+    height: 1200px!important;
+  }
+.bgimg  {
+  }
+
+.logoxrp {
+  top:40%!important;
+}
+
+.middle{
+  top:40%important;
+}
+.sub-title-3{
+    top:100px!important;
+  }
+.sub-title-2{
+    font-size: 20px!important;
+    top:-30px!important;
+  }
+.img-logo-soon {
+  max-width: 300px!important;
+}
+.sub-title-1{
+  font-size: 20px!important;
+}
+}
+
 @media (max-width: 2000px) {
 
 .bgimg {
   top:-20%;
-  height: 900px;
+  height: 900px!important;
 }
 .middle-social {
   top: 20%!important;
@@ -28,29 +59,10 @@
     font-size: 20px!important;
   }
 .img-logo-soon {
-  max-width: 400px!important;
+  max-width: 400px;
 }
 }
-@media (max-width: 600px) {
-  body {
-    background-color: #65112!important;
-    background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(63,141,204,1) 100%)!important;
-    height: 1200px!important;
-  }
-.bgimg  {
-  height: 1200px!important;
-  }
 
-.sub-title-2{
-    font-size: 20px!important;
-  }
-.img-logo-soon {
-  max-width: 400px!important;
-}
-.sub-title-1{
-  font-size: 20px!important;
-}
-}
 .char-2{
   font-size: 40px;
   height: 40px;
