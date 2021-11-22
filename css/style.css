@@ -13,7 +13,6 @@
 @media (max-width: 2000px) {
 
 .bgimg {
-  top:-20%;
   height: 900px!important;
 }
 .middle-social {
@@ -26,6 +25,7 @@
     height: 970px!important;
   }
 .bgimg  {
+  top: -21%;
   }
 .char-1 {
   font-size:20px!important;
@@ -170,6 +170,15 @@ p {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+.middle-1 {
+  position: relative;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: -4;
+}
+
 .middle-social{
   position: relative;
   top: 35%;
