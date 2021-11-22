@@ -12,7 +12,7 @@
    font-family: ThingsGOlight;
 }
 @media screen
-  and (min-device-width: 1200px) 
+  and (min-device-width: 1200px)
   and (max-device-width: 1600px)
   and (-webkit-min-device-pixel-ratio: 1) {
 }
@@ -65,6 +65,7 @@ body, html {
   background: rgb(63,141,204);
   background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%);
   min-width: 1200px;
+  background-repeat: no-repeat;
 }
 p {
    text-align: center;
