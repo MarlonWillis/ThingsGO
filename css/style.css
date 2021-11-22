@@ -16,7 +16,7 @@
 
 .bgimg {
   top:-20%;
-  height: 500px;
+  height: 900px;
 }
 .middle-social {
   top: 20%!important;
@@ -33,7 +33,7 @@
 }
 @media (max-width: 600px) {
   .bgimg  {
-    min-width: 600px;
+    height: 1000px;
   }
 
 .sub-title-2{
@@ -41,6 +41,9 @@
   }
 .img-logo-soon {
   max-width: 400px!important;
+}
+.sub-title-1{
+  font-size: 20px!important;
 }
 }
 .char-2{
@@ -99,7 +102,7 @@ p {
   position: relative;
   font-family: 'ThingsGOlight', sans-serif;
   top: -20px;
-  font-size: 30px!important;
+  font-size: 30px;
 
 }
 
