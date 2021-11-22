@@ -14,9 +14,7 @@
 
 @media (max-width: 600px) {
   body {
-    background-color: #65112!important;
-    background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(63,141,204,1) 100%)!important;
-    height: 1200px!important;
+    height: 1000px!important;
   }
 .bgimg  {
   }
