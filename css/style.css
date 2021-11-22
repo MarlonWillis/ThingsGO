@@ -49,14 +49,17 @@
   max-width: 80px!important;
 
 }
+.header-social ul li i img {
+  width: 30px;
+}
 .social-phone{
-  top:40%!important;
+  top:10%!important;
 }
 .middle{
   top:40%important;
 }
 .sub-title-3{
-    top:100px!important;
+    top: 40px!important;
     font-size: 30px!important;
   }
 .sub-title-2{
@@ -74,6 +77,30 @@
 .header-social ul {
   margin-left: -40px!important;
 }
+.header-social ul li {
+  font-size: 0.5em!important;
+}
+
+.fa-telegram{
+  top:10px!important;
+}
+
+.fa-twitter{
+  top:10px!important;
+}
+
+.fa-discord{
+  top:10px!important;
+}
+
+.fa-instagram{
+  top:10px!important;
+}
+
+.fa-id{
+  top:10px!important;
+}
+
 }
 
 
