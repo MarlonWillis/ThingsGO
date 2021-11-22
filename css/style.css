@@ -11,10 +11,20 @@
 * {
    font-family: ThingsGOlight;
 }
+@media (max-width: 2000px) {
+
+.bgimg {
+  top:-20%;
+  height: 900px!important;
+}
+.middle-social {
+  top: 20%!important;
+}
+}
 
 @media (max-width: 600px) {
   body {
-    height: 1000px!important;
+    height: 950px!important;
   }
 .bgimg  {
   }
@@ -31,17 +41,21 @@
   max-width: 50px!important;
 
 }
+.social-phone{
+  top:40%!important;
+}
 .middle{
   top:40%important;
 }
 .sub-title-3{
     top:100px!important;
+    font-size: 30px!important;
   }
 .sub-title-2{
     font-size: 20px!important;
     top:-30px!important;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 .img-logo-soon {
   max-width: 300px!important;
@@ -54,16 +68,7 @@
 }
 }
 
-@media (max-width: 2000px) {
 
-.bgimg {
-  top:-20%;
-  height: 900px!important;
-}
-.middle-social {
-  top: 20%!important;
-}
-}
 @media (max-width: 1200px) {
 
 .sub-title-2{
@@ -145,7 +150,7 @@ p {
   position: relative;
   font-family: 'ThingsGOregular', sans-serif!important;
   top: 50px;
-  font-size: 40px!important;
+  font-size: 40px;
   color: #ffffff;
   font-weight: 100;
 }
