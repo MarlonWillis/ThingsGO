@@ -13,7 +13,16 @@
 @media (max-width: 2000px) {
 
 .bgimg {
-  height: 900px!important;
+  height: 600px!important;
+}
+.middle-social {
+  top: 20%!important;
+}
+}
+@media (max-width: 1200px) {
+
+.bgimg {
+  height: 500px!important;
 }
 .middle-social {
   top: 20%!important;
@@ -25,7 +34,7 @@
     height: 970px!important;
   }
 .bgimg  {
-  top: -21%;
+  top: -15%;
   }
 .char-1 {
   font-size:20px!important;
@@ -303,19 +312,19 @@ hr {
 }
 
 .header-social ul li.telegram::after{
-  content: '@ThinsgGO';
+  content: 'ThinsgGoOnline';
 }
 
 .header-social ul li.discord::after{
-  content: '@ThinsgGO';
+  content: 'TGO - ThingsGo Online';
 }
 
 .header-social ul li.twitter::after{
-  content: '@thingsgoonline';
+  content: 'ThingsGoOnline';
 
 }
 .header-social ul li.id::after{
-  content: '/thingsgoonline';
+  content: 'thingsgoonline';
 
 }
 
