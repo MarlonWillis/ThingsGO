@@ -32,8 +32,12 @@
 }
 }
 @media (max-width: 600px) {
+  body {
+    background-color: #65112!important;
+    background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(63,141,204,1) 100%)!important;
+  }
   .bgimg  {
-    height: 1000px;
+    height: 1200px!important;
   }
 
 .sub-title-2{
@@ -86,7 +90,6 @@ body, html {
   background: rgb(63,141,204);
   background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%);
   z-index: -99;
-  background-repeat: no-repeat;
 }
 p {
    text-align: center;
