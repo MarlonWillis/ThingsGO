@@ -91,6 +91,7 @@ box-sizing: border-box;}
 .header-social {
     text-align: center;
     position: relative;
+    margin-left: -70px;
   }
 .sub-title-2{
     font-size: 20px!important;
