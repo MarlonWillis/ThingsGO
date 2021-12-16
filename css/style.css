@@ -82,6 +82,8 @@ box-sizing: border-box;}
 }
 .responsive-img {
   margin-top: -100%!important;
+  width: 100%!important;
+  top: 50px;
 }
 .middle{
   top:40%!important;
