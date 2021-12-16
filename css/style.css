@@ -280,7 +280,7 @@ box-sizing: border-box;}
 }
 .logoposition {
   position: relative;
-  top: 30px;
+  top: 60px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
