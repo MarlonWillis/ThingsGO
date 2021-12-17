@@ -42,6 +42,7 @@ box-sizing: border-box;}
 
 @media (max-width: 600px) {
 html {
+  height: 1500px!important;
 }
 .bgimg  {
   top: -10%;
