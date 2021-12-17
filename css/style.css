@@ -42,7 +42,6 @@ box-sizing: border-box;}
 
 @media (max-width: 600px) {
 html {
-  height: 170%!important;
 }
 .bgimg  {
   top: -10%;
@@ -55,7 +54,7 @@ html {
 }
 .row {
   position: relative;
-  margin-top: 55%!important;
+  margin-top: 20%!important;
 
 }
 .char-2 {
@@ -125,7 +124,7 @@ html {
   top:10px!important;
 }
 .logoposition {
-  top: 25%!important;
+  top: 50px!important;
 
 }
 
@@ -518,7 +517,7 @@ hr {
 }
 .Information {
   font-family: ThingsGOlight , sans-serif;
-  font-weight: 100;
+  font-weight: 600;
   color: #ffffff;
   font-size: 15px;
   margin-top: 50px;
@@ -535,6 +534,7 @@ hr {
   color: #3F8DCC;
   float: left;
   margin-right: 10px;
+  font-weight: bold;
 }
 .row {
   position: relative;
