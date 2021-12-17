@@ -8,13 +8,10 @@
    src: url(fonts/sofia-pro-regular.otf);
 }
 html {
-  /*height: 100%;*/
   margin: 0;
-  background-image: url("imgs/background_img.png");
-  z-index: -99;
+  background: rgb(63,141,204);
+  background: linear-gradient(150deg, rgba(63,141,204,1) 0%, rgba(86,190,137,1) 100%);
   background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #73b079;
 }
 p {
    text-align: center;
@@ -29,12 +26,8 @@ p {
 box-sizing: border-box;}
 }
 @media (max-width: 2000px) {
-
-.bgimg {
-  height: 600px!important;
-}
-.middle-social {
-  top: 20%!important;
+  .Information {
+  margin-top: 500px;
 }
 }
 @media (max-width: 1200px) {
@@ -43,14 +36,14 @@ box-sizing: border-box;}
   height: 500px!important;
 }
 .middle-social {
-  top: 20%!important;
+  top: 10%!important;
 }
 }
 
 @media (max-width: 600px) {
-  body {
-    height: 970px!important;
-  }
+html {
+  height: 170%!important;
+}
 .bgimg  {
   top: -10%;
   }
@@ -69,7 +62,7 @@ box-sizing: border-box;}
   font-size:20px!important;
 }
 .logoxrp {
-  top:40%!important;
+  top:5%!important;
 }
 .logo-xrp {
   max-width: 80px!important;
@@ -79,6 +72,7 @@ box-sizing: border-box;}
   width: 30px;
 }
 .social-phone{
+  top: -5%!important;
 }
 .responsive-img {
   margin-top: -100%!important;
@@ -86,7 +80,6 @@ box-sizing: border-box;}
   top: 50px;
 }
 .middle{
-  top:40%!important;
 }
 .header-social {
     text-align: center;
@@ -140,7 +133,16 @@ box-sizing: border-box;}
 
 
 @media (max-width: 1200px) {
+  html {
+    height: 100%;
+  }
+.plane_banner {
+  padding-top: 150px!important;
+  padding-left: 10px!important;
+  padding-right: 10px!important;
+  padding-bottom: 10px!important;
 
+}
 .sub-title-2{
     font-size: 20px!important;
   }
@@ -148,6 +150,28 @@ box-sizing: border-box;}
   max-width: 400px;
 }
 
+}
+@media (min-width: 1200px) {
+  html {
+    height: auto;
+
+}
+}
+@media (min-width: 2000px) {
+  html {
+    height: 100%;
+  }
+  .row {
+    margin-left: 300px;
+  }
+  .Information {
+  margin-top: 100px!important;
+}
+}
+@media (min-width: 3000px) {
+  .Information {
+  margin-top: 150px!important;
+}
 }
 
 .char-2{
@@ -278,24 +302,29 @@ box-sizing: border-box;}
   color: #ffffff;
   font-weight: 100;
 }
-.social-phone {
-  max-width: 400px;
+.sub-title-4 {
+  position: relative;
+  font-family: 'ThingsGOregular', sans-serif!important;
+  top: -20px;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 100;
 }
+
 .logoposition {
   position: relative;
-  top: 60px;
+  top: 100px;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .logoxrp {
   position: relative;
-  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 .middle {
   position: relative;
-  margin-top: 25%;
+  margin-top: 120px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -311,7 +340,7 @@ box-sizing: border-box;}
 
 .middle-social{
   position: relative;
-  top: 35%;
+  margin-top: -250px;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -341,9 +370,11 @@ hr {
 }
 
 .header-social ul li{
+	padding-right: 30px;
+	padding-left: 30px;
 	margin-bottom: 10px;
 	display: inline-block;
-	font-size: 20px;
+	font-size: 1.5em;
 }
 
 .header-social ul li i{
@@ -352,11 +383,6 @@ hr {
   height: 35px;
   line-height: 5px;
   text-align: center;
-}
-.header-social ul li i img{
- position: relative;
- top: 7px;
-
 }
 
 .header-social ul li::after{
@@ -367,6 +393,23 @@ hr {
   right: -10px;
   font-family: ThingsGOlight , sans-serif;
   font-weight: 100;
+}
+
+.header-social ul li.telegram::after{
+  content: '@ThinsgGO';
+}
+
+.header-social ul li.discord::after{
+  content: '@ThinsgGO';
+}
+
+.header-social ul li.twitter::after{
+  content: '@thingsgoonline';
+
+}
+.header-social ul li.id::after{
+  content: '/thingsgoonline';
+
 }
 
 .header-social a{
@@ -465,7 +508,7 @@ hr {
   100% {opacity:1;}
 }
 .responsive-img {
-  width: 70%;
+  width: 100%;
   height: auto;
   position: relative;
 }
@@ -477,9 +520,9 @@ hr {
   font-family: ThingsGOlight , sans-serif;
   font-weight: 100;
   color: #ffffff;
-  border: solid 2px #fff;
-  border-radius: 0px 40px 0px 0px;
   font-size: 15px;
+  margin-top: 50px;
+  max-width: 700px;
 
 }
 .dot {
@@ -495,11 +538,13 @@ hr {
 }
 .row {
   position: relative;
-  margin-top: -20%;
 
 }
 .column {
   float: left;
-  width: 45%;
+  width: 50%;
   padding: 10px;
+}
+.plane_banner {
+  padding: 100px;
 }
