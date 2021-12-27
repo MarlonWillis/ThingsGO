@@ -47,7 +47,7 @@ box-sizing: border-box;}
 
 @media (max-width: 600px) {
 html {
-  height: 2900px!important;
+  height: 3100px!important;
 }
 .bgimg  {
   top: -10%;
@@ -632,6 +632,7 @@ color: #ffffff;
 font-size: 15px;
 margin-top: -350px;
 max-width: 700px;
+line-height: 1.3;
 }
 .global_text {
   text-align: center;
@@ -641,6 +642,7 @@ max-width: 700px;
   top: -30px;
 }
 .global_text a {
+  line-height: 1.8;
   text-decoration: none;
   color: #fff;
 }
@@ -652,6 +654,7 @@ max-width: 700px;
   text-align: center;
 }
 .supported-text a {
+  line-height: 1.8;
   text-decoration: none;
   color: #fff;
 }
