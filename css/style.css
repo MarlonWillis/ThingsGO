@@ -81,6 +81,7 @@ html {
 }
 .middle{
 }
+
 .header-social {
     text-align: center;
     position: relative;
@@ -224,6 +225,10 @@ html {
   animation: fadeInUp 2s ease-out 1 both ;
 
 }
+.textsub-animation-1 {
+  animation: fadeInUp 2s ease-out 1 both ;
+
+}
 @-webkit-keyframes fadeInUp {
 	0% {
 		opacity: 0;
@@ -289,7 +294,7 @@ html {
 .sub-title-2 {
   position: relative;
   font-family: 'ThingsGOregular', sans-serif;
-  top:-100px;
+  top:-50px;
   font-size: 40px;
   color: #ffffff;
   font-weight: 100;
@@ -548,4 +553,34 @@ hr {
 }
 .plane_banner {
   padding: 100px;
+}
+.button-Paper-button {
+  text-decoration: none;
+  font-family: ThingsGOlight , sans-serif!important;
+  color: #ffffff;
+}
+.button-paper {
+  float: right;
+  text-align: center;
+  text-decoration: none;
+  position: relative;
+  top: -20px;
+
+}
+.button-paper-style {
+  padding: 8px;
+  color: #c74f4ff0;
+  background-color: #ff3636;
+  border: solid 1px #fff;
+  border-radius: 5px;
+
+}
+.button-paper-style:hover {
+  padding: 8px;
+  color: #c74f4ff0;
+  background-color: #e31b1b;
+  border: solid 1px #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+
 }
