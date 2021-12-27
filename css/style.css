@@ -178,7 +178,7 @@ html {
 }
 @media (min-width: 2000px) {
   html {
-    height: 2300px;
+    height: 2500px;
   }
   .row {
     margin-left: 300px;
@@ -631,6 +631,7 @@ font-weight: 600;
 color: #ffffff;
 font-size: 15px;
 margin-top: -350px;
+max-width: 700px;
 }
 .global_text {
   text-align: center;
